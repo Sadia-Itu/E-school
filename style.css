@@ -62,6 +62,12 @@
     text-align: center;
     margin-top: 20px;
 }
+.cardimage{
+border: none !important;
+border-radius: 10px;
+box-shadow: 5px 5px 10px lightgray;
+height:300px;
+}
 .div-text{
     
     

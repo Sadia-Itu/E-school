@@ -33,6 +33,20 @@
 }
 .books1{
     box-shadow: 5px 5px 55px 5px lightgray;
+    border-radius: 5px;
+    height: 230px;
+    width: 230px;
+    border: none;
+    background-color:#F8FFFB; ;
+}
+.books{
+    box-shadow: 5px 5px 55px 5px lightgray;
+    border-radius: 5px;
+    height: 230px;
+    width: 230px;
+    border: none;
+    background-color: #FFFFFF;
+
 }
 .align-items-center{
     align-items: center !important;
@@ -50,6 +64,7 @@
 .sec2{
     margin-top: 20px;
     display: block;
+    font-family: poppins;
 }
 .sec3{
     text-align: center;
@@ -137,8 +152,26 @@ height: 300px;
 left: 0px;
 
 
+
 background: #282531;
 color: white;
+}
+footer{
+    position: absolute;
+
+left: 800px;
+margin-top: 50px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+/* identical to box height, or 187% */
+
+color: #CDCDCD;
 }
 .sec5-bottom{
     margin-top: 40px;
@@ -152,4 +185,7 @@ height: 234px;
 
 
 border-radius: 11px;
+}
+h6{
+    color:gray;
 }

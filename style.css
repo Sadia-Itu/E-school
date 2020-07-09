@@ -37,17 +37,9 @@
     height: 230px;
     width: 230px;
     border: none;
-    background-color:#F8FFFB; ;
+    background-color:#F8FFFB;
 }
-.books{
-    box-shadow: 5px 5px 55px 5px lightgray;
-    border-radius: 5px;
-    height: 230px;
-    width: 230px;
-    border: none;
-    background-color: #FFFFFF;
 
-}
 .align-items-center{
     align-items: center !important;
 }
@@ -115,13 +107,14 @@
     justify-content: space-between !important;
 }
 .card-text{
-    text-align: left;
+    text-align: center;
 }
 .sec4{
     text-align:center;
 }
 .container{
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 .man{
     
@@ -188,4 +181,14 @@ border-radius: 11px;
 }
 h6{
     color:gray;
+}
+.hover:hover{
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    box-shadow: 1px 1px 50px 5px  lightgray;
+    
+}
+.forleft{
+    text-align: left;
 }
